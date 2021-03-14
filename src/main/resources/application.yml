@@ -1,0 +1,18 @@
+wechat:
+  appId: wxe1cbcdfc6d2924f4
+  appSecret: e581094dc33bcf7353695ef965a03d7f
+  token: zrclass
+  we-chat-queue: wechar_queue
+  we-chat-exchange: weCharDirectExchange
+  direct-key: weChar
+
+
+spring:
+  application:
+    name: wechat-public
+  rabbitmq:
+    host: txy
+    port: 5672
+    username: julywhj
+    password: julywhj
+    virtual-host: /julywhj
